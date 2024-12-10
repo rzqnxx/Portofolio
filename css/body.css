@@ -1,0 +1,241 @@
+/*===== GOOGLE FONTS =====*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&&display=swap');
+
+body{
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.bg{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.text-green{
+  color: #00B255;
+}
+
+.tebel-banget {
+    font-weight: 900;
+  }
+  
+.tebel-sedang {
+    font-weight: bold;
+}
+
+.desc{
+    max-width: 400px;
+}
+
+.desc2{
+  max-width: 400px;
+  margin-left: 350px;
+}
+
+.button {
+    background-color: #3D4051;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+.button:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+.button2 {
+  background-color: #0d6efd;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.button2:hover {
+  background-color: #3D4051;
+  color: white;
+}
+  
+
+.gambar{
+  display: none;
+}
+
+.img{
+  width: 600px;
+  z-index: -1;
+}
+.mid{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+.mid2{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+.section-title{
+  position: relative;
+  font-size: 2rem;
+  color: #0d6efd;
+  margin-top: 1rem;
+  margin-bottom: 1rem; 
+  text-align: center;
+}
+/*===== SKILLS =====*/
+.img-about{
+  border-radius: 7px;
+}
+/*===== SKILLS =====*/
+.skills_container {
+  row-gap: 2rem;
+  text-align: center;
+}
+.skills_subtitle{
+  margin-bottom: 1rem;
+}
+.skills_text{
+  margin-bottom: 2rem;
+}
+.skills_data{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-weight: 600;
+  padding: .5rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: .5rem;
+  box-shadow: 0 4px 25px rgba(14,36,49,.15);
+}
+.skills_icon{
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #0d6efd;
+}
+.skills_icon:hover{
+  color: #00B255;
+}
+.skills_names{
+  display: flex;
+  align-items: center;
+}
+.skills_bar{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color:#0d6efd;
+  height: .25rem;
+  border-radius: .5rem;
+  z-index: -10;
+}
+.skills_bar:hover{
+  color: #00B255;
+}
+.skills_html{
+  width: 80%;
+}
+.skills_css{
+  width: 80%;
+}
+.skills_js{
+  width: 50%;
+}
+.skills_ux{
+  width: 85%;
+}
+/*======= SERVICE ========*/
+.service{
+	background: #fff;
+}
+.service .one{
+	background: #3D4051;
+  color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 2rem 1.5rem;
+	border-radius: 7px;
+	position: relative;
+	text-align: center;
+	transition: all 0.3s ease-in-out;
+	text-transform: capitalize;
+	cursor: pointer;
+  box-shadow: 0 4px 25px rgba(14,36,49,.15);
+  transition: .5s;
+  cursor: pointer;
+}
+.service .one:hover{
+	transform: scale(1.1);
+	background: #0d6efd;
+	color: #fff;
+  box-shadow: 0 4px 25px rgba(14,36,49,.15);
+}
+
+/*====== CONTACT =======*/
+.text-contact{
+  font-weight: 600;
+}
+.form-control{
+  border: 2px solid #111;
+}
+.message{
+  border-radius: 7px;
+}
+/*===== FOOTER =====*/
+.footer{
+  background-color: #3D4051;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  padding: 2rem 0;
+}
+.footer_social{
+  margin-bottom: 2rem;
+}
+.footer_icon{
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 1rem;
+  transition: 0.3s;
+}
+.footer_icon:hover{
+  color:#0d6efd;
+}
+.footer_button{
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.footer_button:hover{
+  color: #0d6efd;
+}
+.gamelab_button{
+  margin-top: .5rem;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #fff;
+  transition: 0.3s;
+}
+.gamelab_button:hover{
+  color: #0d6efd;
+}
+
